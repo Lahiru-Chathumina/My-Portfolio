@@ -1,4 +1,4 @@
-# Lahiru Bandara's Portfolio
+# Lahiru Bandara Portfolio
 
 Welcome to my personal portfolio! This repository showcases my skills and projects as a web developer, digital marketer, and graphic designer. It includes detailed information about my expertise, including technologies such as HTML, CSS, JavaScript, Java, Bootstrap, and more.
 
