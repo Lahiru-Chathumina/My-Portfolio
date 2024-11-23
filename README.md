@@ -8,7 +8,7 @@ Welcome to my personal portfolio! This repository showcases my skills and projec
 - [Projects](#projects)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
-- [License](#license)
+  
 
 ## About Me
 Hi 👋, I'm Lahiru Bandara, a passionate web developer, digital marketer, and graphic designer. I love turning ideas into functional and beautiful web applications. My expertise spans across several areas, and I'm constantly exploring new technologies to expand my skills.
@@ -32,8 +32,7 @@ You can explore the following projects on my portfolio:
 
 ## Contact
 Feel free to reach out to me:
-- [Email](mailto:your-email@example.com)
-- [LinkedIn](https://www.linkedin.com/in/your-profile/)
+
 - [WhatsApp](https://wa.me/+94756946586?text=Hi%20Lahiru,%20I%20am%20interested%20in%20your%20portfolio!)
 
 ## License
