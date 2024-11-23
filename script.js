@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const text = "Hi 👋, I'm Lahiru Bandara"; 
+    const text = "Hi 👋, I'm Lahiru"; 
     let index = 0; 
     const typingSpeed = 150; 
     const deletingSpeed = 50; // Speed at which the text will be deleted
