@@ -30,12 +30,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     typeText(); 
 });
+
+const scrollUpBtn = document.getElementById('scroll-up');
+
+scrollDownBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth',
+  });
+});
+
 scrollUpBtn.addEventListener('click', () => {
   window.scrollTo({
     top: 0,
     behavior: 'smooth',
   });
 });
+
 window.addEventListener('scroll', () => {
   if (window.scrollY > 200) {
     scrollUpBtn.style.display = 'block';
