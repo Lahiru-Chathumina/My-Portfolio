@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(typeText, typingSpeed); 
             } else {
                 isDeleting = true;
-                setTimeout(typeText, 1000); // Wait a second before starting to delete
+                setTimeout(typeText, 1000); 
             }
         } else {
             if (index > 0) {
@@ -23,10 +23,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 setTimeout(typeText, deletingSpeed); 
             } else {
                 isDeleting = false;
-                setTimeout(typeText, 1000); // Wait a second before typing again
+                setTimeout(typeText, 1000); 
             }
         }
     }
 
-    typeText(); // Start the typing effect
+    typeText(); 
 });
+scrollUpBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) {
+    scrollUpBtn.style.display = 'block';
+  } else {
+    scrollUpBtn.style.display = 'none';
+  }
+});
+
